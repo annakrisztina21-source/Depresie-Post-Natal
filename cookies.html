@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Politica Cookies</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ["Fraunces", "serif"],
+              body: ["Plus Jakarta Sans", "sans-serif"],
+            },
+            colors: {
+              ink: "#1F1D2B",
+              clay: "#EED9C4",
+              rose: "#E6A6A3",
+              moss: "#587A6B",
+              sand: "#FAF4EF",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-sand font-body text-ink antialiased">
+    <main class="mx-auto max-w-4xl px-6 py-12">
+      <header class="mb-10">
+        <p class="text-sm uppercase tracking-[0.3em] text-moss">Document legal</p>
+        <h1 class="mt-3 font-display text-4xl font-semibold">Politica Cookies</h1>
+        <p class="mt-2 text-sm text-ink/70">Ultima actualizare:</p>
+      </header>
+
+      <section class="space-y-6 text-ink/80">
+        <div class="rounded-2xl bg-white px-6 py-5 shadow">
+          <p class="font-semibold text-ink">1. Ce sunt cookie-urile</p>
+          <p class="mt-2">
+            Cookie-urile sunt fisiere mici stocate pe dispozitivul tau atunci cand vizitezi
+            un site. Ele ajuta la functionarea corecta a site-ului si la imbunatatirea
+            experientei de navigare.
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-white px-6 py-5 shadow">
+          <p class="font-semibold text-ink">2. Tipuri de cookie-uri folosite</p>
+          <ul class="mt-2 list-disc pl-5">
+            <li>Necesare: permit functionarea site-ului.</li>
+            <li>Preferinte: retin setarile tale (daca exista).</li>
+            <li>Analitice: ne ajuta sa intelegem traficul si performanta.</li>
+          </ul>
+          <p class="mt-2 text-sm text-ink/70">
+            In prezent folosim doar cookie-uri necesare si analitice de baza.
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-white px-6 py-5 shadow">
+          <p class="font-semibold text-ink">3. Consimtamant</p>
+          <p class="mt-2">
+            La prima vizita vei vedea un banner de consimtamant. Poti accepta sau refuza
+            cookie-urile optionale. Cookie-urile necesare nu pot fi dezactivate.
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-white px-6 py-5 shadow">
+          <p class="font-semibold text-ink">4. Gestionarea cookie-urilor</p>
+          <p class="mt-2">
+            Poti modifica setarile cookie-urilor din browser oricand. Dezactivarea lor
+            poate afecta functionarea site-ului.
+          </p>
+        </div>
+
+        <div class="rounded-2xl bg-white px-6 py-5 shadow">
+          <p class="font-semibold text-ink">5. Contact</p>
+          <p class="mt-2">
+            Pentru intrebari despre cookie-uri, ne poti contacta la.
+          </p>
+        </div>
+      </section>
+
+      <footer class="mt-12 text-sm text-ink/60">
+        <a class="underline" href="index.html">Inapoi la pagina principala</a>
+      </footer>
+    </main>
+  </body>
+</html>
